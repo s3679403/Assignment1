@@ -1,20 +1,38 @@
+/* set default style for header */
 header{
   text-align: center;
   font-size: 50px;
   margin-bottom: 20px;
   color: #f1f1f1;
 }
+/* set default style for body */
 body {
   background-color: #000000;
-  margin-left: 220px;
+  margin-left: 200px;
   margin-right: 50px;
+  margin-bottom:50px;
   font-size: 15px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #f1f1f1;
 }
-/* Position text in the middle of the page/ */
+/* set default style for paragraphs */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* page separator */
+hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* for links in body */
+.body_links {
+  font-size:12px;
+  margin:0px;
+}
+/* Position text in the middle of the page */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -31,7 +49,7 @@ body {
   text-align: center;
   margin-left: 70px;
 }
-/* The sidebar menu */
+/* sidebar menu */
 .sidenav {
   height: 100%;
   width: 200px;
@@ -44,8 +62,7 @@ body {
   padding-top: 20px;
   text-align: center;
 }
-
-/*navigation menu*/
+/* navigation menu */
 .menu a {
   text-decoration: none;
   font-size: 18px;
@@ -55,10 +72,10 @@ body {
   margin-left: 0px;
   display: block;
 }
-/* side bar */
+/* side bar link*/
 .sidenav a {
   font-family: 'Poppins', sans-serif;
-
+/* side bar menu color change for each link*/
 }
 .sidenav a.one:link, a.one:visited {
   color: #B29C5E;
@@ -81,121 +98,109 @@ body {
   color: #875AC6;
   display: block;
 }
-/* When you mouse over the navigation links, change their color */
+/* sidebar link hover color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
-a.PP:hover{
+/* link hover for body */
+a:hover {
   color: #f1f1f1;
 }
-
-a.PP {
-  color: #15A5E2;
+/* yellow text for interest in it headers */
+.iit {
+  color: #F5C371;
 }
-
-a.ideal_job{
+/* green text for ideal job headers and links */
+.ideal_job{
   color: #73C990;
 }
-
-a.ideal_job:hover {
-  color: #f1f1f1;
-}
-
+/* blue text for personal profile headers and links */
 .PP {
   color: #15A5E2;
 }
-
+/* hover color for personal profile links */
+/*a.PP:hover{
+  color: #f1f1f1;
+}*/
+/*purple color for project idea headers*/
+.idea {
+  color: #875AC6;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/*Display picture in sidebar*/
+/* display picture in sidebar */
 .DP {
   border-radius: 50%;
   width:150px;
   margin-bottom: 10px;
   position: relative;
-
 }
-
+/* display picture in about me */
 .DP2 {
   float: left;
   margin-right: 20px;
   width: 300px;
 }
-.material-icons-round {
-  /*padding: 0px 8px 0px 8px;*/
-
-  color: white;
-}
+/* email and teams icon */
+.material-icons-round {color: white;}
+/* container to set margins and alignment for icons */
 .icons {
   margin-top: 20px;
   text-align:center;
   justify-content: center;
 }
+/* side by side icon alignment */
 .icons a {
   display: inline-flex;
   text-decoration: none;
   margin-right:8px;
 }
-
+/* mbti photo result */
 .test_result_1 {
-  float: right;
   width: auto;
   height:500px;
-  margin-left: 15px;
 }
-
+/* container for mbti results and link */
+.mbti_container {
+  float: right;
+  color: #f1f1f1;
+  margin-left: 20px;
+}
+/* learning style photo result */
 .test_result_2 {
-  float: left;
   width: 500px;
   height: auto;
-  margin-right: 15px;
 }
-
+/* container for learning style result and link */
+.learning_style_container {
+  float: left;
+  margin-right: 20px;
+}
+/* leadership style photo result */
 .test_result_3 {
-  float: right;
   width:auto;
   height: 400px;
-  margin-left: 15px;
+}
+/* container for leadership style result and link */
+.leadership_style_container{
+  float: right;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
-
+/* ideal job screenshot */
 .senior_network_engineer {
   display: inline-block;
   width: 500px;
   height: auto;
-  margin-right: 15px;
+  margin-right: 20px;
 }
-
+/*container for ideal job photo and link*/
 .ideal_job_container {
   float: right;
   text-align: justify;
   color: #f1f1f1;
   margin-left: 20px;
   margin-bottom: 10px;
-}
-
-h2.idea {
-  color: #875AC6;
-}
-
-h4 {
-  margin: 0px;
-}
-
-p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-/* page separator */
-hr {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-main {
-  margin-bottom:50px;
 }
