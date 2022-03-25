@@ -193,6 +193,7 @@ p {
 /* page separator */
 hr {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 main {
