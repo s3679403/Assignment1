@@ -1,0 +1,200 @@
+header{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+body {
+  background-color: #000000;
+  margin-left: 220px;
+  margin-right: 50px;
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #f1f1f1;
+}
+/* Position text in the middle of the page/ */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 70px;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*navigation menu*/
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  margin-left: 0px;
+  display: block;
+}
+/* side bar */
+.sidenav a {
+  font-family: 'Poppins', sans-serif;
+
+}
+.sidenav a.one:link, a.one:visited {
+  color: #B29C5E;
+}
+.sidenav a.two:link, a.two:visited {
+  color: #FD7E73;
+}
+.sidenav a.three:link, a.three:visited {
+  color: #F5C371;
+}
+.sidenav a.four:link, a.four:visited {
+  color: #73C990;
+}
+.sidenav a.five:link, a.five:visited {
+  color: #15A5E2;
+  display: block;
+  padding: 0px 8px 0px 8px;
+}
+.sidenav a.six:link, a.six:visited {
+  color: #875AC6;
+  display: block;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+a.PP:hover{
+  color: #f1f1f1;
+}
+
+a.PP {
+  color: #15A5E2;
+}
+
+a.ideal_job{
+  color: #73C990;
+}
+
+a.ideal_job:hover {
+  color: #f1f1f1;
+}
+
+.PP {
+  color: #15A5E2;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*Display picture in sidebar*/
+.DP {
+  border-radius: 50%;
+  width:150px;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.DP2 {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+}
+.material-icons-round {
+  /*padding: 0px 8px 0px 8px;*/
+
+  color: white;
+}
+.icons {
+  margin-top: 20px;
+  text-align:center;
+  justify-content: center;
+}
+.icons a {
+  display: inline-flex;
+  text-decoration: none;
+  margin-right:8px;
+}
+
+.test_result_1 {
+  float: right;
+  width: auto;
+  height:500px;
+  margin-left: 15px;
+}
+
+.test_result_2 {
+  float: left;
+  width: 500px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.test_result_3 {
+  float: right;
+  width:auto;
+  height: 400px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.senior_network_engineer {
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.ideal_job_container {
+  float: right;
+  text-align: justify;
+  color: #f1f1f1;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+h2.idea {
+  color: #875AC6;
+}
+
+h4 {
+  margin: 0px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* page separator */
+hr {
+  margin-bottom: 20px;
+}
+
+main {
+  margin-bottom:50px;
+}
